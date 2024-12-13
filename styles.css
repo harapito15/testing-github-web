@@ -1,3 +1,8 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing:box-sizing;
+}
 
 /*Penghubung font*/
 @font-face {
@@ -28,17 +33,24 @@ a:hover{
   color:#949494;
 }
 .donate {
-  
-  height:65px;
+  position: absolute; /* Mengubah elemen menjadi absolut */
+  top: 35%; /* Posisi 50% dari atas */
+  left: 50%; /* Posisi 50% dari kiri */
+  transform: translate(-50%, -50%); /* Menggeser elemen ke tengah */
+  height: 65px;
   width: 350px;
-  color:#000b;
+  color: rgba(0, 0, 0, 0.75);
   background-color: #03ceff;
-  text-align:center;
+  text-align: center;
   border-radius: 20px;
-  margin-top: 20px;
-  align-items: center;
-  justify-content: flex-end;
+  margin-top: 0; /* Menghilangkan margin-top jika sebelumnya digunakan */
 }
 .donate:hover{
   background-color: #73b8ff;
+}
+img{
+  max-width:100%
+}
+img{
+  margin-top: 50px;
 }
