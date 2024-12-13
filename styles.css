@@ -1,0 +1,44 @@
+
+/*Penghubung font*/
+@font-face {
+    font-family: 'Helvetica Rounded Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Rounded Bold'), url('./helvetica-rounded-bold-5871d05ead8de.woff') format('woff');
+    }
+h1{
+font-size:80px;
+color: yellow;
+font-family:'Helvetica Rounded Bold';
+text-align: center;
+text-shadow: 2px 2px 2px #ff731f ;
+background-color: black;
+border: solid;
+
+}
+a{
+  text-align: center;
+  font-size: 50px;;
+  text-decoration: none;
+  color:#000 ; 
+  font-family:'Helvetica Rounded Bold',Sans-Serif;
+  font-style: Bold;
+}
+a:hover{
+  color:#949494;
+}
+.donate {
+  
+  height:65px;
+  width: 350px;
+  color:#000b;
+  background-color: #03ceff;
+  text-align:center;
+  border-radius: 20px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.donate:hover{
+  background-color: #73b8ff;
+}
